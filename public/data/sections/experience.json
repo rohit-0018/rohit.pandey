@@ -1,0 +1,136 @@
+{
+    "title": {
+      "locales": {
+        "en": {
+          "title_short": "Experience",
+          "title_short_nav": "Experience",
+          "title_long_prefix": "Summary of my",
+          "title_long": "{{Work}} Experience"
+        }
+      }
+    },
+    "articles": [
+      {
+        "id": 1,
+        "component": "ArticleTimeline",
+        "locales": {},
+        "settings": {
+          "order_items_by": "id",
+          "order_items_sort": "dateStart"
+        },
+        "items": [
+          {
+            "id": 1,
+            "img": "",
+            "faIcon": "",
+            "faIconColors": { "bg": "", "fill": "" },
+            "dateStart": { "year": 2024, "month": 8 },
+            "dateEnd": { "now": true },
+            "locales": {
+              "en": {
+                "title": "Deputy Team Lead",
+                "province": "Delhi",
+                "country": "India",
+                "institution": "Belzabar Software Design India Pvt Ltd",
+                "text": "Leading and mentoring a team of 6+ developers on architecture, quality, and performance for a Java-Spring + Redis-based CMS platform.",
+                "list": [
+                  "Improved code quality by 30% through mentorship and reviews",
+                  "Reduced bug resolution time by 40% through proactive maintenance",
+                  "Improved Redis-backed query performance by 35%",
+                  "Led sprint planning, reviews, and delivery improvements (+25% efficiency)"
+                ],
+                "tags": ["Java", "Spring Boot", "Redis", "Agile", "Team Lead"]
+              }
+            }
+          },
+          {
+            "id": 2,
+            "img": "",
+            "faIcon": "",
+            "faIconColors": { "bg": "", "fill": "" },
+            "dateStart": { "year": 2022, "month": 8 },
+            "dateEnd": { "year": 2024, "month": 7 },
+            "locales": {
+              "en": {
+                "title": "Senior Computer Scientist",
+                "province": "",
+                "country": "India",
+                "institution": "Belzabar Software Design India Pvt Ltd",
+                "text": "Worked on high-throughput microservices and micro-frontend architectures across React and Angular, leading to major performance and UX gains.",
+                "list": [
+                  "Enabled React bundle injection into Angular (micro-frontend)",
+                  "Reduced frontend dev time by 40%, UX load time by 30%",
+                  "Built optimized Java Spring APIs (−50% request time)",
+                  "Improved CI/CD with AWS EC2 deployments (−60% failures)"
+                ],
+                "tags": ["React", "Angular", "Java", "AWS", "Microservices"]
+              }
+            }
+          },
+          {
+            "id": 3,
+            "img": "",
+            "faIcon": "",
+            "faIconColors": { "bg": "", "fill": "" },
+            "dateStart": { "year": 2020, "month": 7 },
+            "dateEnd": { "year": 2022, "month": 7 },
+            "locales": {
+              "en": {
+                "title": "Computer Scientist",
+                "province": "New Delhi",
+                "country": "India",
+                "institution": "Belzabar Software Design India Pvt Ltd",
+                "text": "Led full-stack development for internal systems and AI-based solutions, with a focus on performance, accessibility, and automation.",
+                "list": [
+                  "Built 15+ accessible UIs with React & Angular (−25% UI response time)",
+                  "Deployed AI chatbots via AWS Lambda, automating 60% support tasks",
+                  "Created event-driven systems, reducing latency by 35%",
+                  "Wrote HLD/LLD docs, improving onboarding speed by 30%"
+                ],
+                "tags": ["React", "Angular", "AWS Lambda", "System Design", "API Optimization"]
+              }
+            }
+          },
+          {
+            "id": 4,
+            "img": "",
+            "faIcon": "",
+            "faIconColors": { "bg": "", "fill": "" },
+            "dateStart": { "year": 2020, "month": 1 },
+            "dateEnd": { "year": 2020, "month": 7 },
+            "locales": {
+              "en": {
+                "title": "Software Developer Engineer",
+                "province": "Janakpuri",
+                "country": "India",
+                "institution": "Amibba Systems",
+                "text": "Built foundational modules and gained early experience in Java and Spring Boot, contributing to backend features and API testing.",
+                "list": [],
+                "tags": ["Java", "Spring Boot"]
+              }
+            }
+          },
+          {
+            "id": 5,
+            "img": "",
+            "faIcon": "",
+            "faIconColors": { "bg": "", "fill": "" },
+            "dateStart": { "year": 2019, "month": 5 },
+            "dateEnd": { "year": 2019, "month": 8 },
+            "locales": {
+              "en": {
+                "title": "Software Developer Intern",
+                "province": "Noida",
+                "country": "India",
+                "institution": "Amibba Systems",
+                "text": "Interned on backend service modules while contributing to early Java-based REST APIs and learning MVC patterns.",
+                "list": [],
+                "tags": ["Java", "REST", "Internship"]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

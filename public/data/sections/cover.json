@@ -1,0 +1,71 @@
+{
+    "title": {
+      "locales": {
+        "en": {
+          "title_short": "Welcome!",
+          "title_short_nav": "About me",
+          "title_long_prefix": "Hello...",
+          "title_long": "I'm {{Rohit Pandey}}"
+        }
+      }
+    },
+    "articles": [
+      {
+        "id": 1,
+        "component": "ArticleInlineList",
+        "locales": {},
+        "settings": {
+          "order_items_by": "id",
+          "order_items_sort": "asc",
+          "display_as_list_if_width_is_lower_than": 380
+        },
+        "items": [
+          {
+            "id": 1,
+            "label": "India",
+            "link": { "href": "", "tooltipString": "" },
+            "faIcon": "pi pi-map-marker"
+          },
+          {
+            "id": 2,
+            "label": "rohitpandey0018@gmail.com",
+            "link": { "href": "mailto:rohitpandey0018@gmail.com", "tooltipString": "email_me" },
+            "faIcon": "fa-regular fa-envelope"
+          },
+          {
+            "id": 3,
+            "label": "@rohit0018",
+            "link": { "href": "https://www.linkedin.com/in/rohit0018", "tooltipString": "see_on_linkedin" },
+            "faIcon": "fa-brands fa-linkedin"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "component": "ArticleText",
+        "locales": {
+          "en": {
+            "title": "{{A little bit}} about me..."
+          }
+        },
+        "settings": {
+          "order_items_by": "id",
+          "order_items_sort": "asc"
+        },
+        "items": [
+          {
+            "id": 1,
+            "img": "images/pictures/about-texts-image-1.png",
+            "faIcon": "",
+            "faIconColors": { "bg": "", "fill": "" },
+            "locales": {
+              "en": {
+                "text": "<p>I’m a passionate {{Java + Spring Boot}} backend developer with strong experience in building scalable microservices, REST APIs, and full-stack solutions.</p><p>I'm currently working on an ambitious MSME ecosystem project and have also developed several production-grade modules across user management, authentication, caching with Redis, and API Gateway routing.</p><p>I love solving real-world problems with tech and I’m always up for learning new things and building great products. Let’s connect and collaborate!</p>"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

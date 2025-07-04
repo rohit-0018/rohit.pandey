@@ -1,0 +1,146 @@
+{
+    "title": {
+      "locales": {
+        "en": {
+          "title_short": "Portfolio",
+          "title_short_nav": "Portfolio",
+          "title_long_prefix": "Take a look at",
+          "title_long": "My {{Portfolio}}"
+        }
+      }
+    },
+    "articles": [
+      {
+        "id": 1,
+        "component": "ArticlePortfolio",
+        "locales": {
+          "en": {
+            "category_all": "All",
+            "category_apps": "Apps",
+            "category_web": "Web",
+            "category_utilities": "Utilities"
+          }
+        },
+        "settings": {
+          "categorize_by": ["category_apps", "category_web", "category_utilities"],
+          "order_items_by": "id",
+          "order_items_sort": "asc"
+        },
+        "items": [
+          {
+            "id": 1,
+            "categoryId": "category_web",
+            "img": "images/pictures/portfolio-msme-logo.png",
+            "faIcon": "fa-solid fa-indian-rupee-sign",
+            "faIconColors": { "bg": "#4CAF50", "fill": "#FFF" },
+            "preview": {
+              "links": [
+                { "href": "https://github.com/fyntrio/msme-platform", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github" }
+              ],
+              "screenshots": [],
+              "screenshotsAspectRatio": "16:9",
+              "youtubeVideo": ""
+            },
+            "locales": {
+              "en": {
+                "title": "MSME Trust Score Platform",
+                "text": "A privacy-first <b>MSME scoring system</b> using <b>Java 21, Spring Boot, Redis</b>. Supports offline plugins, report uploading, and secure scoring.",
+                "tags": ["Java", "Spring Boot", "Redis", "Microservices"]
+              }
+            }
+          },
+          {
+            "id": 2,
+            "categoryId": "category_utilities",
+            "img": "images/pictures/portfolio-api-gateway.png",
+            "faIcon": "fa-solid fa-network-wired",
+            "faIconColors": { "bg": "#212121", "fill": "#FFF" },
+            "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+            "locales": {
+              "en": {
+                "title": "Spring Cloud API Gateway",
+                "text": "Built a <b>JWT-secured API Gateway</b> for routing requests to microservices with rate limiting, fallback handling, and service discovery.",
+                "tags": ["Spring Cloud", "Security", "Gateway", "JWT"]
+              }
+            }
+          },
+          {
+            "id": 3,
+            "categoryId": "category_web",
+            "img": "images/pictures/portfolio-user-auth.png",
+            "faIcon": "fa-solid fa-user-lock",
+            "faIconColors": { "bg": "#1976D2", "fill": "#FFF" },
+            "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+            "locales": {
+              "en": {
+                "title": "User & Auth Services",
+                "text": "Created user and auth microservices with <b>JWT, refresh tokens</b>, Redis caching, email verification, and login tracking.",
+                "tags": ["Java", "Spring Security", "JWT", "Redis"]
+              }
+            }
+          },
+          {
+            "id": 4,
+            "categoryId": "category_apps",
+            "img": "images/pictures/portfolio-admin-panel.png",
+            "faIcon": "fa-brands fa-angular",
+            "faIconColors": { "bg": "#DD0031", "fill": "#FFF" },
+            "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+            "locales": {
+              "en": {
+                "title": "Angular Admin Panel",
+                "text": "Built a <b>role-based admin panel</b> using Angular with JWT session handling, lazy-loaded routes, dynamic menus, ngx-charts, and multilingual support.",
+                "tags": ["Angular", "Admin", "JWT", "ngx-charts"]
+              }
+            }
+          },
+          {
+            "id": 5,
+            "categoryId": "category_apps",
+            "img": "images/pictures/portfolio-dash.png",
+            "faIcon": "fa-solid fa-table-columns",
+            "faIconColors": { "bg": "#F57C00", "fill": "#FFF" },
+            "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+            "locales": {
+              "en": {
+                "title": "Fyntrio Dashboard",
+                "text": "Responsive dashboard built with <b>Angular</b> and <b>Material UI</b>, featuring dynamic table, charts, export to Excel, and dark mode.",
+                "tags": ["Angular", "Material UI", "Charts", "Responsive"]
+              }
+            }
+          },
+          {
+            "id": 6,
+            "categoryId": "category_apps",
+            "img": "images/pictures/portfolio-formbuilder.png",
+            "faIcon": "fa-solid fa-pen-to-square",
+            "faIconColors": { "bg": "#0D9488", "fill": "#FFF" },
+            "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+            "locales": {
+              "en": {
+                "title": "QuickForms",
+                "text": "A dynamic <b>form builder</b> using <b>React + Formik</b> that allows drag-n-drop schema creation and export to JSON.",
+                "tags": ["React", "Formik", "Forms", "Drag-n-Drop"]
+              }
+            }
+          },
+          {
+            "id": 7,
+            "categoryId": "category_utilities",
+            "img": "images/pictures/portfolio-dsa-visualizer.png",
+            "faIcon": "fa-solid fa-code-branch",
+            "faIconColors": { "bg": "#6D28D9", "fill": "#FFF" },
+            "preview": { "links": [], "screenshots": [], "screenshotsAspectRatio": "", "youtubeVideo": "" },
+            "locales": {
+              "en": {
+                "title": "DSA Visualizer",
+                "text": "Built in <b>React + TypeScript</b>, this app animates sorting algorithms, graph traversal, and tree recursion for interview prep.",
+                "tags": ["React", "TypeScript", "Animation", "DSA"]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

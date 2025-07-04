@@ -1,0 +1,22 @@
+{
+    "name": "Rohit Pandey",
+    "profilePictureUrl": "images/pictures/rohit-pandey.png",
+    "resumePdfUrl": "documents/rohit-pandey-resume.pdf",
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "Available for freelance or full-time collaborations!",
+    "locales": {
+      "en": {
+        "localized_name": "Rohit Pandey",
+        "localized_name_stylized": "[[Rohit {{Pandey}}]]",
+        "status_message_available_for_freelance": "Available for freelance or full-time collaborations!",
+        "roles": [
+          "Full-Stack Developer",
+          "System Architect",
+          "DevOps Engineer",
+          "AI & Web3 Innovator"
+        ]
+      }
+    }
+  }
+  
