@@ -44,9 +44,13 @@ export const _fileUtils = {
      * @return {String}
      */
     resolvePath: (path) => {
-        if(path.startsWith("http"))
+        if (path.startsWith("http"))
             return path
+    
         const baseUrl = _fileUtils.BASE_URL || ""
-        return baseUrl + path
+        const cleanedBase = baseUrl.endsWith("/") ? baseUrl.slice(0, -1) : baseUrl
+        const cleanedPath = path.startsWith("/") ? path.slice(1) : path
+    
+        return `${cleanedBase}/${cleanedPath}`
     },
 }

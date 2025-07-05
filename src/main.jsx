@@ -57,7 +57,7 @@ const AppEssentialsWrapper = ({children}) => {
         if (window.location.pathname !== utils.file.BASE_URL)
             window.history.pushState({}, '', utils.file.BASE_URL)
 
-        utils.file.loadJSON("/data/settings.json").then(response => {
+        utils.file.loadJSON(`${import.meta.env.BASE_URL}data/settings.json`).then(response => {
             _applyDeveloperSettings(response)
             setSettings(response)
         })
