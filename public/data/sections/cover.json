@@ -28,8 +28,8 @@
           },
           {
             "id": 2,
-            "label": "rohitpandey0018@gmail.com",
-            "link": { "href": "mailto:rohitpandey0018@gmail.com", "tooltipString": "email_me" },
+            "label": "contact@itsrohitpandey.in",
+            "link": { "href": "mailto:contact@itsrohitpandey.in", "tooltipString": "email_me" },
             "faIcon": "fa-regular fa-envelope"
           },
           {
