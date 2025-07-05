@@ -55,8 +55,8 @@
             "id": 2,
             "faIcon": "fa-solid fa-envelope",
             "faIconColors": { "bg": "", "fill": "" },
-            "label": "rohitpandey0018@gmail.com",
-            "link": { "href": "mailto:rohitpandey0018@gmail.com", "tooltipString": "email_me" },
+            "label": "contact@itsrohitpandey.in",
+            "link": { "href": "mailto:contact@itsrohitpandey.in", "tooltipString": "email_me" },
             "locales": {
               "en": { "title": "E-mail" }
             }
